@@ -10,8 +10,6 @@ import java.time.LocalDate;
 @Entity
 @Table(name =  "movies")
 @Data
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 

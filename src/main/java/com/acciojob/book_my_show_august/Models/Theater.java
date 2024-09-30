@@ -1,11 +1,13 @@
 package com.acciojob.book_my_show_august.Models;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
+@Data
 @Table (name = "theaters")
 @Builder
 @AllArgsConstructor
